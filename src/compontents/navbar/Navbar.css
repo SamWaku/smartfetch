@@ -1,0 +1,69 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(131, 131, 251);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbarwrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.topRight {
+    display: flex;
+    align-items: center;
+}
+
+.navbarIconContainer {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+}
+
+.notIcon {
+    width: 25px;
+    height: 50px;
+}
+.topIconBadge {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 12px;
+    right: 136px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.profilePic {
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.profileName {
+    font-weight: bold;
+    width: 20px;
+    height: 10px;
+    bottom: 10px;
+    text-align: justify;
+}
+

@@ -1,0 +1,25 @@
+.sidebar {
+    flex: 1;
+    height: calc(100vh - 65px);
+    background-color: rgb(34, 34, 60);
+}
+
+.sidebarWrapper {
+    padding: 20px;
+    color: rgb(212, 211, 211);
+}
+
+.sidebarMenu {
+    margin-bottom: 10px;
+}
+
+.sidebarTitle {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.sidebarList {
+    list-style: none;
+    cursor: pointer;
+}
