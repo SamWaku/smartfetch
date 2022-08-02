@@ -1,21 +1,116 @@
 .sidebar {
     flex: 1;
-    height: calc(100vh - 65px);
-    background-color: rgb(34, 34, 60);
+    height: calc(100vh - 80px);
+    background-color: rgb(251, 251, 252);
 }
 
 .sidebarWrapper {
     padding: 20px;
-    color: rgb(212, 211, 211);
+    color: rgb(0, 0, 0);
 }
 
 .sidebarMenu {
     margin-bottom: 10px;
 }
 
+
+
+/************profilesection****************/
+.sideBarProfile {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebarprofilePic {
+    width: 80px;
+    height: 90px;
+}
+
+.profiledetails {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom: px;
+    
+} 
+
+.sidebarprofileName {
+    font-weight: bold;
+    width: 50px;
+}
+
+.onlineindicator  {
+    margin-top: 1px;
+    color: rgb(44, 195, 44);
+}
+
+.inidicatortext {
+    margin-top: 0px;
+    margin-left: 10px ;
+}
+
+
+
+/****************sidebarsearch***************/
+.sidebarsearch {
+    
+}
+
+.search{
+    width: 100%;
+    position:absolute;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+
+/*******************leftsection******************/
+
+
+.sidebarIcons {
+    margin-left: 5px;
+}
+
 .sidebarTitle {
     font-size: 20px;
     cursor: pointer;
+    padding: 5px;
     padding: 5px;
 }
 

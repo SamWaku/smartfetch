@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import "./Navbar.css";
 import { MdNotificationsNone } from 'react-icons/md'
-import { CgProfile } from 'react-icons/cg'
+import { CgProfile } from 'react-icons/cg';
+
 
 export default class Navbar extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class Navbar extends Component {
       <div className='navbar'>
             <div className='navbarwrapper'>
                 <div className='topleft'>
-                    <span className='logo'>SmartFetch</span>
+                <img src={require('../../images/scclean.png')} className='logo' alt="Image1"/>
                 </div>
                 <div className='topRight'>
                     <div className='navbarIconCntainer'>
@@ -18,8 +19,10 @@ export default class Navbar extends Component {
                     </div>
                     <div className='navbarIconCntainer'>
                         <CgProfile className='profilePic'/>
-                        <span className='profileName'>Kachigo</span>
                     </div>
+                    <div className='profileName'>
+                              <span>Kachigo</span>
+                        </div>
                 </div>
             </div>
       </div>
